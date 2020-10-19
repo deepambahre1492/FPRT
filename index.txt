@@ -14,6 +14,8 @@ Differece between Public & private networks are:
 2) public ip network are not free like private you need to pay for it, if you want to access your network from any location then you need to use public ip address only.
 3) public ip address is more secure as compare to private. 
 
+Q.5 Which database we should choose to build https://university.attainu.com/ and why?
+Answer: I think MongoDB is good to use in https://university.attainu.com/ because its more secure from other database, Its new & come with lote of new features like $lookup, & aggregation, there have lots of functions for small tasks, It is easy to use & more understandable to everyone.
 
 Q6. Please list linux commands or tools to diagnose your application. Please explain in which scenario you will use different commands?
 Answer: I have used few linux commands & tools in my application:
@@ -38,7 +40,6 @@ Answer: Firewall is use for system security. its work as a wall in between netwo
 firewalls are two types:
 1) packet filtering firewall: packet filtering firewall is a firewall whose check packet of data if data of perticular packet is currepted Or not match with original data then it block that data packet.
 2) application gateway firewall: application gateway firewall is check the network proxy if data come from proxy server then its alert the system & block the data.
-
 
 Q.10. Explain caching and where it is used?
 Answer: caching is a temporay storage, when we open any website  in browser then its store that website data in browser then if we open same website next time then tis not take much time to load.
