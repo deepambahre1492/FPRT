@@ -1,0 +1,57 @@
+Q.1  How to prevent ddos attack?
+Answer: Ddos attack is comes in hacking where hackers choose a website or server and attack them with multiple resorces in same time, when any website or server access in same time with lots of resorces then its slow down then after hacker can easily enter & theft lots of useful information & also he can frauds.
+There have some tips if we follow then we can our website & servers from Ddos Attacks:
+1) Use multiple server whose make difficult to slow down your server.
+2) use cloud based services & upload your heavy files in cloud.
+3) monitor the server & watch all requests & response.
+
+
+Q.2  Differentiate between public and private ip addresses?
+Answer: Public ip address whose we can access from anyware for example we use google & search anything from anywhere & there have limit to access so that type of ip addres is called public ip address.
+private ip address whose range is limited, for example our wifi & mobile hotspot. we use internet service within the range.
+Differece between Public & private networks are:
+1) public ip network range is not limited as comapre to private.
+2) public ip network are not free like private you need to pay for it, if you want to access your network from any location then you need to use public ip address only.
+3) public ip address is more secure as compare to private. 
+
+
+Q6. Please list linux commands or tools to diagnose your application. Please explain in which scenario you will use different commands?
+Answer: I have used few linux commands & tools in my application:
+1) Ipconfig: ipconfig is shows all information of your network like IPv4, IPv6, MAC address, DNS address. i have used this command to know the information & open my php applications in local server.
+2) Nslookup: NSlookup command use to get domain name of perticular IP address.
+3) Whois: Whose command is use to get the basic information like, domain name, contact information & status of public & private ip address.
+4) Speed test: I have used speed test tools online to test download & upload speed of my internet.
+5) Ip Scanner: This tools is help us to tell us which ip address is duplicte & not configure properly.
+6) Wireshark: WireShark is a tool whose chack packet data, if our network data comes in form of packets, wireshark is use to monitor each packet & tell the system if data is currupted or any error in data.
+
+Q.9 Explain round-robin scheduling. Mention where it is used?
+Answer: round robin is a scheduling techinque where every task gave some time slot & if that time is end then other process will runs and others will wait.
+For example if we have process p1, p2, & p3. that assign time like t1= 3 min , t2 = 6 min & t3 = 9 min then
+1) p1 will start it p2 will wait till 3 minutes.
+2) after 3 mintes p1 will go in last of the queue & p2 will start.
+3) after 6 minutes p2 will shift after p1 & p3 will start.
+4) after 9 minutes p3 will shift after p2 & again p1 will start.
+this process will go on till any process will not complete. if p1 is completed then it will exit from queue & p2 & p3 will left on the queue.
+
+
+Q.10. Explain caching and where it is used?
+Answer: caching is a temporay storage, when we open any website  in browser then its store that website data in browser then if we open same website next time then tis not take much time to load.
+when first time when we load any website tis takes all data & information to us & load in our browser that take some time, In case of cache its store data of the website whose open fisrt time & store all data in temporary storage & if we open the same website it will take less time to load data.
+Cache is store in our system browser.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
