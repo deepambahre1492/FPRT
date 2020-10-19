@@ -24,7 +24,7 @@ Answer: I have used few linux commands & tools in my application:
 5) Ip Scanner: This tools is help us to tell us which ip address is duplicte & not configure properly.
 6) Wireshark: WireShark is a tool whose chack packet data, if our network data comes in form of packets, wireshark is use to monitor each packet & tell the system if data is currupted or any error in data.
 
-Q.9 Explain round-robin scheduling. Mention where it is used?
+Q.7 Explain round-robin scheduling. Mention where it is used?
 Answer: round robin is a scheduling techinque where every task gave some time slot & if that time is end then other process will runs and others will wait.
 For example if we have process p1, p2, & p3. that assign time like t1= 3 min , t2 = 6 min & t3 = 9 min then
 1) p1 will start it p2 will wait till 3 minutes.
@@ -32,6 +32,12 @@ For example if we have process p1, p2, & p3. that assign time like t1= 3 min , t
 3) after 6 minutes p2 will shift after p1 & p3 will start.
 4) after 9 minutes p3 will shift after p2 & again p1 will start.
 this process will go on till any process will not complete. if p1 is completed then it will exit from queue & p2 & p3 will left on the queue.
+
+Q.8 Explain firewalls and what are the different types of it?
+Answer: Firewall is use for system security. its work as a wall in between network & our system. It watch network & data if coming data from network is untrusted  have chance of virus then it alert the system & block that particular data then our systen is protect from virus.
+firewalls are two types:
+1) packet filtering firewall: packet filtering firewall is a firewall whose check packet of data if data of perticular packet is currepted Or not match with original data then it block that data packet.
+2) application gateway firewall: application gateway firewall is check the network proxy if data come from proxy server then its alert the system & block the data.
 
 
 Q.10. Explain caching and where it is used?
