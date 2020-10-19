@@ -41,7 +41,12 @@ firewalls are two types:
 1) packet filtering firewall: packet filtering firewall is a firewall whose check packet of data if data of perticular packet is currepted Or not match with original data then it block that data packet.
 2) application gateway firewall: application gateway firewall is check the network proxy if data come from proxy server then its alert the system & block the data.
 
-Q.10. Explain caching and where it is used?
+Q.10 What is paging and why do we need it?
+Answer: paging is a technique where we manage memory, it divide data into frames for example if we sent 4mb of data to memory then paging is divide 4 mb to 2mb + 2mb & store in main memory.
+paging technique is usefull for example we have 4 mb & we have two blockes A & B, A have 2 mb space & B have 3 mb space then paging will divide 4 mb into either 2mb & 2mb or 3mb & 1 mb then memory space will not waste.
+
+
+Q.12. Explain caching and where it is used?
 Answer: caching is a temporay storage, when we open any website  in browser then its store that website data in browser then if we open same website next time then tis not take much time to load.
 when first time when we load any website tis takes all data & information to us & load in our browser that take some time, In case of cache its store data of the website whose open fisrt time & store all data in temporary storage & if we open the same website it will take less time to load data.
 Cache is store in our system browser.
